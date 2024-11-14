@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
+
 const prosController = require('../controllers/professionals');
 
-router.get('/professional', prosController.getData);
+router.get('/', prosController.getData);
 
 module.exports = router;

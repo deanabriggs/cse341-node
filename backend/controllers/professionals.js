@@ -1,12 +1,10 @@
 const mongodb = require('../data/connect');
 
-const ObjectId = require('mongodb').ObjectId;
-
 const getData = async (req, res, next) => {
     const result = await mongodb.getDb().db().collection('professionals').find();
-    result.toArray().then((professionals) => {
+    result.toArray().then((lists) => {
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(professionals[0]);
+        res.status(200).json(lists[0]);
     });
 };
 
