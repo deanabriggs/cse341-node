@@ -1,7 +1,7 @@
 // app.js
 
 const express = require('express');
-const mongodb = require('./data.db');
+const mongodb = require('./data/db');
 const app = express();
 
 const port = process.env.PORT || 8080;
