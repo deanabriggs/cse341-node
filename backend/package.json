@@ -1,0 +1,25 @@
+{
+  "name": "rest-activity",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanabriggs/cse341-activity1.git"
+  },
+  "author": "Deana Briggs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deanabriggs/cse341-activity1/issues"
+  },
+  "homepage": "https://github.com/deanabriggs/cse341-activity1#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
